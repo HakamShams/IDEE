@@ -4,7 +4,6 @@
 ![License MIT](https://img.shields.io/badge/license-MIT-purple.svg)
 
 <img align="left" src="docs/images/NeurIPS-logo.svg"  width="100" style="margin-right: 10px;"> <img align="left" src="docs/images/era5.png" width="45">
-
 # Identifying Spatio-Temporal Drivers of Extreme Event
 
 Computer Vision Group, Institute of Computer Science III, University of Bonn.
@@ -75,7 +74,6 @@ Training on real-world different than the one in the paper, requires fine-tuning
 │   ├── dataset
 │   │   └── Synthetic_dataset.py
 │   ├── log
-│   │
 │   ├── models
 │   │   ├── agent
 │   │   │   └── Swin_3D.py
@@ -105,7 +103,6 @@ Training on real-world different than the one in the paper, requires fine-tuning
 │   ├── dataset
 │   │   └── Synthetic_dataset.py
 │   ├── log
-│   │
 │   ├── models
 │   │   ├── build_simplenet.py
 │   │   ├── encoder
@@ -122,7 +119,6 @@ Training on real-world different than the one in the paper, requires fine-tuning
 │   ├── dataset
 │   │   └── Synthetic_dataset.py
 │   ├── log
-│   │
 │   ├── models
 │   │   ├── build_steal.py
 │   │   ├── build_uniad.py
@@ -148,7 +144,6 @@ Training on real-world different than the one in the paper, requires fine-tuning
 │   └── poster
 │       └── Shams_Gall.png
 ├── log
-│
 ├── models
 │   ├── build.py
 │   ├── classifier
@@ -210,7 +205,7 @@ Training on real-world different than the one in the paper, requires fine-tuning
   ```
    wget --continue  https://bonndata.uni-bonn.de/api/access/datafile/7506 -O Synthetic.7z
   ```
-  To extract the files you need the 7-Zip:
+  To extract the files you need the 7-Zip packge:
   ```
    sudo apt update
    sudo apt install p7zip-full
