@@ -4,7 +4,7 @@
 ![License MIT](https://img.shields.io/badge/license-MIT-purple.svg)
 
 <img align="left" src="docs/images/NeurIPS-logo.svg"  width="100" style="margin-right: 10px;"> <img align="left" src="docs/images/era5.png" width="45">
-# Identifying Spatio-Temporal Drivers of Extreme Event
+# Identifying Spatio-Temporal Drivers of Extreme Event (IDEE)
 
 Computer Vision Group, Institute of Computer Science III, University of Bonn.
 
