@@ -1,5 +1,5 @@
-[![Website](https://img.shields.io/badge/Website-IDE-b31b1b.svg?logo=Leaflet)](https://hakamshams.github.io/IDE/)
-[![Paper](https://img.shields.io/badge/Paper-to..appear-b31b1b.svg?logo=openaccess)]()
+[![Website](https://img.shields.io/badge/Website-IDE-CBBD93.svg?logo=Leaflet)](https://hakamshams.github.io/IDE/)
+[![Paper](https://img.shields.io/badge/Paper-to..appear-CBBD93.svg?logo=openaccess)]()
 ![Python 3.10](https://img.shields.io/badge/python-3.10-purple.svg)
 ![License MIT](https://img.shields.io/badge/license-MIT-purple.svg)
 
@@ -62,7 +62,7 @@ and for testing on ERA5 Land:
 The code is implemented with a simple DataParallel for multi-GPUs.
 Training on real-world different than the one in the paper, requires fine-tuning for the hyper-parameters and weighting.
 
-### Backbones:
+### Backbones
 - [x] [Video Swin Transformer](models/encoder/Swin_3D.py)
 - [x] [Vision Mamba](models/encoder/Mamba.py)
 - [x] [3D CNN](models/encoder/CNN_3D.py)
@@ -201,7 +201,7 @@ Training on real-world different than the one in the paper, requires fine-tuning
 ## Dataset
 
 - The full data set can be obtained from [https://doi.org/10.60507/FK2/RD9E33](https://doi.org/10.60507/FK2/RD9E33) (~ 1.1 TB after decompression).
-- The data can be also downloaded via scripts found in [scripts](scripts) i.e., you can download the synthetic data via [script/download_synthetic.sh](scripts/download_synthetic.sh) (~46 GB) :
+- The data can be also downloaded via scripts found in [scripts](scripts) i.e., you can download the synthetic data via [script/download_synthetic.sh](scripts/download_synthetic.sh) (~46 GB):
   ```
    wget --continue  https://bonndata.uni-bonn.de/api/access/datafile/7506 -O Synthetic.7z
   ```
@@ -236,6 +236,7 @@ To appear on Openreview ...
 
 
 This work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) within the Collaborative Research Centre SFB 1502/1–2022 - [DETECT](https://sfb1502.de/) - [D05](https://sfb1502.de/projects/cluster-d/d05) and by the Federal Ministry of Education and Research (BMBF) under grant no. 01IS24075C RAINA.
+
 ### License
 
 The code is released under MIT License. See the [LICENSE](LICENSE) file for details.
