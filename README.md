@@ -1,5 +1,6 @@
 [![Website](https://img.shields.io/badge/Website-IDE-CBBD93.svg?logo=Leaflet)](https://hakamshams.github.io/IDE/)
 [![Paper](https://img.shields.io/badge/Paper-to..appear-CBBD93.svg?logo=openaccess)]()
+[![ArXiv](https://img.shields.io/badge/ArXiv-2410.24075-CBBD93.svg?logo=arxiv)](https://arxiv.org/abs/2410.24075)
 ![Python 3.10](https://img.shields.io/badge/python-3.10-purple.svg)
 ![License MIT](https://img.shields.io/badge/license-MIT-purple.svg)
 
@@ -9,7 +10,7 @@
 Computer Vision Group, Institute of Computer Science III, University of Bonn.
 
 This is the code to reproduce the results presented in the paper:
-["**Identifying Spatio-Temporal Drivers of Extreme Events**"]() by [Mohamad Hakam Shams Eddin](https://hakamshams.github.io/), and [Juergen Gall](http://pages.iai.uni-bonn.de/gall_juergen/). Accepted at [NeurIPS'24](https://neurips.cc/Conferences/2024).
+["**Identifying Spatio-Temporal Drivers of Extreme Events**"](https://arxiv.org/abs/2410.24075) by [Mohamad Hakam Shams Eddin](https://hakamshams.github.io/), and [Juergen Gall](http://pages.iai.uni-bonn.de/gall_juergen/). Accepted at [NeurIPS'24](https://neurips.cc/Conferences/2024).
 ### [Website](https://hakamshams.github.io/IDE/) | Paper
 
 [![video presentation](docs/images/video_cover_ide.jpg)]()
@@ -66,6 +67,23 @@ Training on real-world different than the one in the paper, requires fine-tuning
 - [x] [Video Swin Transformer](models/encoder/Swin_3D.py)
 - [x] [Vision Mamba](models/encoder/Mamba.py)
 - [x] [3D CNN](models/encoder/CNN_3D.py)
+
+### Baselines
+
+- [Multiple instance learning](Baselines_MIL):
+  - [x] DeepMIL
+  - [x] ARNet
+  - [x] RTFM
+  - [ ] MGFN
+- [One Class](Baselines_OneClass):
+  - [x] SimpleNet
+- [Reconstruction based](Baselines_Reconstruction):
+  - [x] UniAD
+  - [x] STEALNET
+
+### Pretrained models
+
+...
 
 ### Structure
 ```
@@ -180,23 +198,6 @@ Training on real-world different than the one in the paper, requires fine-tuning
     ├── visualize_NOAA_data.py
     └── visualize_synthetic_data.py
 ```
-
-### Baselines
-
-- [Multiple instance learning](Baselines_MIL):
-  - [x] DeepMIL
-  - [x] ARNet
-  - [x] RTFM
-  - [ ] MGFN
-- [One Class](Baselines_OneClass):
-  - [x] SimpleNet
-- [Reconstruction based](Baselines_Reconstruction):
-  - [x] UniAD
-  - [x] STEALNET
-
-### Pretrained models
-
-...
 
 ## Dataset
 
