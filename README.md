@@ -1,5 +1,5 @@
 [![Website](https://img.shields.io/badge/Website-IDE-CBBD93.svg?logo=Leaflet)](https://hakamshams.github.io/IDE/)
-[![Paper](https://img.shields.io/badge/Paper-to..appear-CBBD93.svg?logo=openaccess)]()
+[![Paper](https://img.shields.io/badge/Paper-Openreview-CBBD93.svg?logo=openaccess)](https://openreview.net/forum?id=DdKdr4kqxh)
 [![ArXiv](https://img.shields.io/badge/ArXiv-2410.24075-CBBD93.svg?logo=arxiv)](https://arxiv.org/abs/2410.24075)
 [![Synthetic](https://img.shields.io/badge/Code-Synthetic_data-purple.svg?logo=github)](https://github.com/HakamShams/Synthetic_Multivariate_Anomalies)
 ![Python 3.10](https://img.shields.io/badge/python-3.10-purple.svg)
@@ -15,7 +15,7 @@ This is the code to reproduce the results presented in the paper:
 
 The code for generating the synthetic data is available at [Synthetic_Multivariate_Anomalies](https://github.com/HakamShams/Synthetic_Multivariate_Anomalies).
 
-### [Website](https://hakamshams.github.io/IDE/) | Paper
+### [Website](https://hakamshams.github.io/IDE/) | [Paper](https://openreview.net/forum?id=DdKdr4kqxh)
 
 [![video presentation](docs/images/video_cover_ide.jpg)]()
 
@@ -232,9 +232,14 @@ Training on real-world different than the one in the paper, requires fine-tuning
 If you find our work useful, please cite:
 
 ```
-
-To appear on Openreview ...
-
+@inproceedings{
+eddin2024identifying,
+title={Identifying Spatio-Temporal Drivers of Extreme Events},
+author={Mohamad Hakam Shams Eddin and Juergen Gall},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=DdKdr4kqxh}
+}
 ```
 
 ### Acknowledgments
