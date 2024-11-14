@@ -17,7 +17,7 @@ The code for generating the synthetic data is available at [Synthetic_Multivaria
 
 ### [Website](https://hakamshams.github.io/IDE/) | [Paper](https://openreview.net/forum?id=DdKdr4kqxh)
 
-[![video presentation](docs/images/video_cover_ide.jpg)]()
+[![video presentation](docs/images/video_cover_ide.jpg)](https://www.youtube.com/watch?v=_AD5moplxB0)
 
 <br />
 
