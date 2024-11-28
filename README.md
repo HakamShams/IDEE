@@ -47,7 +47,6 @@ Pytorch has to be updated to be computable with your GPU driver.
 
 If you want to use Mamba:
 ```
-pip install mamba-ssm
 pip install mamba-ssm[causal-conv1d]
 ```
 
