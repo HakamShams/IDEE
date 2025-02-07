@@ -272,13 +272,16 @@ Training on real-world different than the one in the paper, requires fine-tuning
 If you find our work useful, please cite:
 
 ```
-@inproceedings{
-eddin2024identifying,
-title={Identifying Spatio-Temporal Drivers of Extreme Events},
-author={Mohamad Hakam Shams Eddin and Juergen Gall},
-booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
-year={2024},
-url={https://openreview.net/forum?id=DdKdr4kqxh}
+@inproceedings{IDEE,
+ author = {Shams Eddin, Mohamad Hakam and Gall, J\"{u}rgen},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Globerson and L. Mackey and D. Belgrave and A. Fan and U. Paquet and J. Tomczak and C. Zhang},
+ pages = {93714--93766},
+ publisher = {Curran Associates, Inc.},
+ title = {Identifying Spatio-Temporal Drivers of Extreme Events},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2024/file/aa7259c82d642e47d5661f3218cdcad2-Paper-Conference.pdf},
+ volume = {37},
+ year = {2024}
 }
 ```
 
